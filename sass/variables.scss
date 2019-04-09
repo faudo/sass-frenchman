@@ -1,0 +1,191 @@
+///////////////////
+//THEME VARIABLES//
+///////////////////
+
+//use these as shortcuts or reminders of theme guidelines when filling out styles below
+
+$base-font-size: 16px;
+$mainfont: 'Muli';
+$headerfont: 'Oswald';
+$alternatefont: 'Lora';
+$blue: #0d57b9;
+$orange: #ec7a28;
+$grey: #333333;
+$white: white;
+$black: black;
+
+
+//////////////////////////////////////////
+////////////////HEADER////////////////////
+//////////////////HEADER//////////////////
+////////////////////HEADER////////////////
+//////////////////////////////////////////
+$header-background: $blue;
+$header-border-top: none;
+$header-border-bottom: 5px solid $orange;
+$mobile-hamburger-color: $orange;
+
+//main navigation menu ($mn)
+$mn-font: $headerfont;
+$mn-font-size: 16px;
+$mn-text-color: $white;
+$mn-text-transform: uppercase;
+$mn-border-top: none;
+$mn-border-bottom: none;
+//hover
+$mn-text-color-hover: $orange;
+$mn-decoration-hover: none;//either 'none' or 'underline'.
+$mn-background-color-hover: transparent;
+$mn-border-top-hover: none;
+$mn-border-bottom-hover: none;
+//active (styles for current menu item)
+$mn-active-text-color: $blue;
+$mn-active-decoration: none;//either 'none' or 'underline'.
+$mn-active-background-color: $white;
+$mn-active-border-top: none;
+$mn-active-border-bottom: none;
+
+
+//dropdown menu ($dd)
+$dd-background: $grey;
+$dd-link-color: $white;
+$dd-font-size: 14px;
+//hover
+$dd-hover-color: rgba(white, .75);
+$dd-hover-decoration: none; //either 'none' or 'underline'.
+$dd-hover-background-color: transparent;
+//active
+$dd-active-color: white;
+$dd-active-decoration: underline; //either 'none' or 'underline'.
+$dd-active-background-color: transparent;
+
+//header button
+$hb-text-color: white;
+$hb-font: $headerfont;
+$hb-font-size: $mn-font-size;
+$hb-background-color: transparent;
+$hb-border-color: transparent;
+$hb-box-shadow: none; // https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+//header button hover
+$hb-background-color-hover: transparent;
+$hb-text-color-hover: $orange;
+$hb-border-color-hover: transparent;
+
+
+///////////////////////////////////////////////////
+/////////////////SAMPLE STYLES/////////////////////
+///////////////////SAMPLE STYLES///////////////////
+/////////////////////SAMPLE STYLES/////////////////
+///////////////////////////////////////////////////
+
+//fonts
+$header-font: $headerfont;
+$header-text-transform: uppercase;
+$main-text-font: $mainfont;
+$h1-font-weight: bold;
+$h2-font-weight: bold;
+$h3-font-weight: normal;
+$h4-font-weight: bold;
+
+//text-color
+$h1-color: $blue;
+$h2-color: $blue;
+$h3-color: $orange;
+$h4-color: $blue;
+$main-text-color: $grey;
+$link-color: $blue;
+$link-decoration: underline; // either 'underline' or 'none'.
+$link-color-hover: $orange;
+$link-decoration-hover: underline; // either 'underline' or 'none'.
+$ol-number-color: $orange; //numbered list - number color
+$ul-bullet-color: $orange; //bulleted list - bullet color
+
+//button ($bt)
+$bt-font: $mainfont;
+$bt-font-weight: normal;
+$bt-text-color: $white;
+$bt-text-transform: uppercase; //choose from 'uppercase', 'capitalize', 'lowercase', or 'none'.
+$bt-background-color: $orange;
+$bt-padding: 5px 40px;
+$bt-border-width: 0px;
+$bt-border-color: transparent;
+$bt-border-radius: 0px;
+$bt-box-shadow: 3px 3px $grey; // https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+//button hover
+$bt-background-color-hover: $orange;
+$bt-text-color-hover: $white;
+$bt-border-color-hover: transparent;
+
+//misc
+$blockquote-text-color: $grey;
+$blockquote-border-color: $orange;
+
+
+////////////////////////////////////////
+////////////////HOME////////////////////
+//////////////////HOME//////////////////
+////////////////////HOME////////////////
+////////////////////////////////////////
+
+//home hero overlay text ($ht)
+$ht-background: rgba(white,.7); //use rgba format with opacity less than 1 - https://css-tricks.com/the-power-of-rgba/
+$ht-background-mobile: #ccc; //use a solid color
+$ht-text-color: $grey;
+$ht-font-size: 1em; //use 'em's - example: 1em for normal text size, 1.5em for 150% normal text size, .9em for 90% normal text size
+
+//home featured content ($hfc)
+$hfc-background-color: $white;
+
+//home columns ($hc)
+$hc-background-color: $white;
+$hc-border: 2px solid $white;
+$hc-header-color: $white;
+$hc-header-background: transparent;
+
+//home parralax section ($hpx)
+$hpx-text-color: $white;
+$hpx-font-size: 1em; //use 'em's
+
+
+///////////////////////////////////////////
+////////////////SIDEBAR////////////////////
+//////////////////SIDEBAR//////////////////
+////////////////////SIDEBAR////////////////
+///////////////////////////////////////////
+//sidebar ($s)
+$s-header-color: $blue;
+$s-link-color: $blue;
+$s-link-color-hover: $orange;
+$s-link-decoration-hover: none; // either 'underline' or 'none'.
+
+
+
+//////////////////////////////////////////
+////////////////FOOTER////////////////////
+//////////////////FOOTER//////////////////
+////////////////////FOOTER////////////////
+//////////////////////////////////////////
+//footer ($ft)
+$ft-background-color: $blue;
+$ft-border-top: 12px solid $orange;
+$ft-h4-color: $white;
+$ft-h4-border-bottom: 5px solid $orange;
+$ft-text-color: $white;
+$ft-text-color-hover: $white;
+$ft-text-decoration-hover: underline; // either 'underline' or 'none'.
+
+
+
+///////////////////////////////////////////
+////////////////CONTACT////////////////////
+//////////////////CONTACT//////////////////
+////////////////////CONTACT////////////////
+///////////////////////////////////////////
+$google-maps-border: 4px solid $blue;
+$form-border: 1px solid $blue;
+
+
+
+
+
+
